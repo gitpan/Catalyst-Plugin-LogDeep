@@ -1,6 +1,6 @@
 ---
 name: Catalyst-Plugin-LogDeep
-version: 0.0.1
+version: 0.0.2
 author:
   - 'Ivan Wills <ivan.wills@gmail.com>'
 abstract: Sets up L<Log::Deep> for Catalyst logging
@@ -16,7 +16,7 @@ build_requires:
 provides:
   Catalyst::Plugin::LogDeep:
     file: lib/Catalyst/Plugin/LogDeep.pm
-    version: 0.0.1
+    version: 0.0.2
 generated_by: Module::Build version 0.33
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
