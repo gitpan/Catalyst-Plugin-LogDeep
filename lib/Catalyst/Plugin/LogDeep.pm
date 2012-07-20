@@ -14,8 +14,9 @@ use List::Util qw/ first /;
 use Log::Deep;
 use English qw/ -no_match_vars /;
 use base qw/Exporter/;
+use Class::C3::Adopt::NEXT -no_warn;
 
-our $VERSION     = version->new('0.0.2');
+our $VERSION     = version->new('0.0.3');
 
 my $first = 1;
 sub setup {
@@ -50,7 +51,7 @@ Catalyst::Plugin::LogDeep - Sets up L<Log::Deep> for Catalyst logging
 
 =head1 VERSION
 
-This documentation refers to Catalyst::Plugin::LogDeep version 0.0.2.
+This documentation refers to Catalyst::Plugin::LogDeep version 0.1.
 
 =head1 SYNOPSIS
 
